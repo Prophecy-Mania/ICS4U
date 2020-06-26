@@ -1,0 +1,65 @@
+public class HelloWorldPM
+{
+    public static void main (String[] args)
+    {
+        //This will clear the screen
+        System.out.print('\u000C');
+       
+        //Opening Statement
+        System.out.println("Hello Universe! I am going to output some variable values!");
+       
+        //Boolean Values
+        boolean math = false;
+        boolean body = true;
+        System.out.println("The statement that there 35 teams in the NBA is "+math+".");
+        System.out.println("The statement Lightning never strikes in the same place twice is "+body+".");
+       
+        //Byte Values
+        byte age = 3;
+        byte number = 6;
+        System.out.println("I have "+age+"tv's in my house.");
+        System.out.println("3 plus 3 is "+number+".");
+       
+        //Short Values
+        short alive = 6205;
+        short calories = 165;
+        System.out.println("I have been living for "+alive+" days.");
+        System.out.println("A single can of pop has "+165+" calories.");
+       
+        //Int Values
+        int barriepopulation = 153356;
+        int average  = 10000;
+        System.out.println("The population of Barrie is "+barriepopulation+" people.");
+        System.out.println("The average human takes"+average +" steps per day.");
+       
+        //Long Values
+        long distance = 4379000;
+        long canadapopulation = 231370000;
+        System.out.println("The planet Mars is  "+distance+" km. Away from the sun");
+        System.out.println("The population of the United kingdom is "+canadapopulation+" people.");
+       
+        //Float Values
+        float amountofwater = 7.5f;
+        float networth = 110f;
+        System.out.println("The average adult at rest inhales and exhales comsume about  "+amountofwater+" of air per minute.");
+        System.out.println(" Bill Gates' networth is around "+networth+" billion dollars.");
+       
+        //Double Values
+        double randomnumber1 = 3.00e+250;
+        double randomnumber2 = 5.00e+200;
+        System.out.println("A random double number is "+randomnumber1+".");
+        System.out.println("Another random double number is "+randomnumber2+".");
+       
+        //Char Values
+        char char1 = 'c';
+        char char2 = 'O';
+        System.out.println("The first letter of my Mom's name is "+char1+".");
+        System.out.println("The first and last letter of the province I live in is "+char2+".");
+     
+        //String Values
+        String Heroes = "You either die a hero, or live longer enough  to see yourself become the villain";
+        System.out.println("When Batman and  Gordon are talking at an abandoned warehouse,  Batman states: "+Heroes);
+        String Bryant = "Heroes come and go, but legends are forever...";
+        System.out.println("Kobe Bryant once said : "+Bryant+" RIP Kobe 8.24'.");
+          } // end main method
+} // end class
